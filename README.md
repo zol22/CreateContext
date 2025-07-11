@@ -23,8 +23,7 @@ This file creates:
 
 ```tsx
 const [state, dispatch] = useReducer(themeReducer, initialState);
-
-
+```
 
 ### 2. `ThemeProvider`
 Wraps your app and provides context values.
